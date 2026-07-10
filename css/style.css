@@ -65,7 +65,8 @@ nav h1 {
 
 .hero {
     height: 100vh;
-    background-image: url("../images/salfa.webp");
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+                      url("../images/salfa.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
