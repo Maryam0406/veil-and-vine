@@ -228,3 +228,30 @@ nav h1 {
     transform: scale(1.03);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
+
+.featured {
+    padding: 100px 80px;
+    background-color: #ffffff;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.feature-card {
+    background-color: #fdfbf9;
+    padding: 40px 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #4a3f35;
+    margin-bottom: 15px;
+}
