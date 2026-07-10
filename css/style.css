@@ -78,3 +78,37 @@ nav h1 {
     max-width: 550px;
 }
 
+.hero-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.learn-btn {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.learn-btn:hover {
+    background-color: white;
+    color: #4a3f35;
+}
+
