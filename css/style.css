@@ -137,16 +137,8 @@ nav h1 {
 
 .category-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1 fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-}
-
-.category-card {
-    background-color: white;
-    border-radius: 15px;
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
 }
 
 .category-card {
@@ -195,4 +187,44 @@ nav h1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 100px 80px;
+    background-color: #f8f5f2;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.about-image img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
