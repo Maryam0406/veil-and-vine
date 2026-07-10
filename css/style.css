@@ -283,3 +283,50 @@ nav h1 {
     margin: 20px 20px 10px;
     line-height: 1.4;
 }
+
+.product-card p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #8b7355;
+    /*top  left/right  bottom*/
+    margin: 0 20px 25px;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0, 0.15);
+}
+
+.testimonials {
+    padding: 100px 80px;
+    background-color: #fdfbf9;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stars {
+    font-size: 24px;
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 25px;
+}
